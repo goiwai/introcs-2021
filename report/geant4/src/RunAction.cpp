@@ -49,9 +49,9 @@ RunAction::RunAction(EventAction* eventAction)
   // Default settings
   analysisManager->SetNtupleMerging(true);
      // Note: merging ntuples is available only with Root output
-  analysisManager->SetFileName("/home/test-man/Work/geant4/tutorial/homework_introcs/introcs-2021/report/geant4/build/test.root");
-     // If the filename extension is not provided, the default file type (root)
-     // will be used for all files specified without extension.
+  analysisManager->SetFileName("IntroCS");
+  // If the filename extension is not provided, the default file type (root)
+  // will be used for all files specified without extension.
   // analysisManager->SetDefaultFileType("xml");
      // The default file type (root) can be redefined by the user.
 
